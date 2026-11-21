@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-SG">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FrameShift Software</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <p class="brand">FrameShift Software</p>
+      <h1>Software built around the way you work.</h1>
+      <p>We build web apps and internal tools for growing teams.</p>
+      <a class="button" href="#enquire">Enquire now <span aria-hidden="true">↗</span></a>
+    </header>
+    <section aria-labelledby="clients">
+      <h2 id="clients">What our clients say</h2>
+      <p class="muted">Sample testimonials from fictional clients.</p>
+      <div class="quotes">
+        <figure><blockquote>“Our operations team can finally see every order in one place.”</blockquote><figcaption>Maya Tan · Northline Logistics</figcaption></figure>
+        <figure><blockquote>“The new booking flow made it easier for clients to reserve a session.”</blockquote><figcaption>Daniel Lim · Relay Studio</figcaption></figure>
+        <figure><blockquote>“We spend less time reconciling spreadsheets at the end of each week.”</blockquote><figcaption>Priya Rao · Waypoint Retail</figcaption></figure>
+      </div>
+    </section>
+    <section id="enquire" class="enquiry" aria-labelledby="contact-title">
+      <div>
+        <h2 id="contact-title">Tell us what you’re building.</h2>
+        <p class="muted">Demo form. Your details stay on this page.</p>
+      </div>
+      <form>
+        <label for="name">Name</label>
+        <input id="name" autocomplete="name" required>
+        <label for="email">Email</label>
+        <input id="email" type="email" autocomplete="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" required></textarea>
+        <button class="button" type="submit">Submit demo enquiry</button>
+        <p role="status" id="status"></p>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
